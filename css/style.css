@@ -1,0 +1,57 @@
+:root {
+    --color-first: #ff6348;
+    --color-second: #ff4757;
+    --color-third: #ffffff;
+
+
+}
+
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color:var(--color-first) ;
+    color: var(--color-third);
+
+} 
+
+input{
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    border: 4px solid black;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 340px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+button{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    box-sizing: border-box;
+    background-color: var(--color-third); 
+    height: 40px;
+    width: 340px;
+    cursor: pointer;
+    border: 0;
+    transition: transform 100ms linear ease-in-out;
+    box-shadow: 4px 4px 0 gray;
+    margin-bottom: 100px;
+}
+button:hover {
+    background-color: #000000; /* Green */
+    color: white;
+    transform: scale(1.05);    
+  }
+
+  img{
+      width: 20%;
+  }
